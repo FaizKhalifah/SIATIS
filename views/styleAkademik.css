@@ -1,4 +1,59 @@
-h1{
-    background-color:red;
-    color:blue;
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+} 
+
+header{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+header nav{
+    margin-top: 2rem;
+    width: 100%;
+}
+
+header ul{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    flex-flow: row nowrap;
+    gap: 4rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.biodata{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.biodata article{
+    text-align: left;
+}
+
+.opsi{
+    width: 25%;
 }
