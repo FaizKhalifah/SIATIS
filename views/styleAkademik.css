@@ -13,6 +13,10 @@ header{
     justify-content: flex-start;
 }
 
+header h1{
+    color: green;
+}
+
 header nav{
     margin-top: 2rem;
     width: 100%;
@@ -37,17 +41,27 @@ main{
     margin-top: 2rem;
     width: 100%;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.informasi{
+    width: 100%;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
 }
 
 .biodata{
-    width: 70%;
+    width: 60%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
 }
 
 .biodata article{
@@ -55,5 +69,25 @@ main{
 }
 
 .opsi{
-    width: 25%;
+    width: 35%;
+}
+
+.opsi ul{
+    list-style-type: none;
+}
+
+.opsi li{
+    margin-right: 3rem;
+    padding: 1rem 0rem;
+    border-top: 1px gray solid;
+    border-bottom: 1px gray solid;
+}
+
+.content{
+    background-color: aquamarine;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
