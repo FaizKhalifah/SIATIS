@@ -84,10 +84,26 @@ main{
 }
 
 .content{
-    background-color: aquamarine;
     width: 100%;
     padding: 2rem;
     display: flex;
+    gap: 2rem;
+    flex-direction:column;
     justify-content: center;
     align-items: center;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-spacing: 0px;
+    text-align: center;
+}
+
+th,td{
+    padding: 1rem;
+}
+
+th{
+    background-color: green;
+    color: white;
 }
