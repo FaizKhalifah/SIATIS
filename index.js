@@ -11,5 +11,14 @@ app.set('view engine', 'ejs');
 app.use(express.static('views'));
 
 app.get('/',(req,res)=>{
-    res.render('akademik');
+    const isiBiodata = {
+        nim:'00000000',
+        nama:'Rekayasa Marganih',
+        fakultas:'Ilmu Komputer',
+        jurusan:'Teknik informatika',
+        prodi:'Teknik informatika',
+        seleksi:'mandiri'
+    }
+    res.render('akademik', isiBiodata);
+    
 })
